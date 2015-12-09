@@ -30,6 +30,5 @@ Para poder Utilizar debemos tener en una carpeta los cinco archivos que vienen i
  
  ### javac Palabras.java
  
- enseguida de eso damos enter y despues de 
- 
-### java Palabras data.txt
+ enseguida de eso damos enter y despues de  
+ ### java Palabras data.txt
