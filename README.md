@@ -17,3 +17,19 @@ En este proyecto utilize diversas teconologias las cuales las enlisto a continua
 * BufferedWriter
 * InsertSort
 
+Para poder Utilizar debemos tener en una carpeta los cinco archivos que vienen incluidos en el repositorio 
+* data.txt
+* Palabras.java
+* Element.java
+* stopwords-spanish.txt
+* reporte.txt
+
+
+ Para poder correr el programa debemos ingresar a nuestra carpeta desde la consola 
+ ya que estamos en la carpeta ingresaremos la siguente linea
+ 
+ ### javac Palabras.java
+ 
+ enseguida de eso damos enter y despues de 
+ 
+### java Palabras data.txt
