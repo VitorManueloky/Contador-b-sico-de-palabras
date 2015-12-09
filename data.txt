@@ -1,0 +1,55 @@
+
+Jose Manuel Sánchez Suárez
+
+Consultor tecnológico de desarrollo de proyectos informáticos.
+
+Puedes encontrarme en Autentia: Ofrecemos servicios de soporte a desarrollo, factoría y formación.
+
+Somos expertos en Java/Java EE
+Primeros pasos con github: subir un proyecto al repositorio.
+abril 26, 2011Jose Manuel Sánchez Suárez1 Comentario Tutoriales Tutoriales 69246 visitas
+Primeros pasos con github: subir un proyecto al repositorio.
+
+0. Índice de contenidos.
+
+    1. Introducción.
+    2. Entorno.
+    3. Preparar el entorno de git.
+    4. Preparar el entorno de github.
+    5. Subir el proyecto.
+    6. Referencias.
+    7. Conclusiones.
+
+
+1. Introducción
+
+Github es un hosting para git, gratuito para proyectos opensource. Git es un sistema de control de versiones distribuido, para más info leed este tutorial de Alejandro.
+
+En este vamos a ver cómo configurarnos el entorno local para trabajar contra github y cómo realizar una primera subida de un proyecto al repositorio.
+
+2. Entorno.
+
+El tutorial está escrito usando el siguiente entorno:
+
+    Hardware: Portátil MacBook Pro 17′ (2.93 GHz Intel Core 2 Duo, 4GB DDR3 SDRAM).
+    Sistema Operativo: Mac OS X Snow Leopard 10.6.7
+    Git 1.7.4.4.
+
+
+3. Preparar el entorno de git
+
+Lo primero, siguiendo el tutorial que os he comentado de Alejandro, es instalarnos en local git y configurarlo.
+
+Para la instalación, en función del sistema operativo, tendremos que realizar más o menos operaciones, el objetivo no es compilar nosotros el código con lo que nos descargaremos una empaquetación del mismo lista para instalar, para Mac, de la siguiente ubicación: http://git-scm.com/
+
+La instalación es simple, tras la misma comprobaremos la versión instalada ejecutando por línea de comandos:
+	git --version
+1
+	
+	git --version
+
+Lo siguiente es configurar el usuario, email y los decoradores de la salida por consola, para ello seguiremos los pasos aquí indicados configuración de git.
+
+Añadiremos a la configuración anterior la creación de un fichero de exclusiones. Es típico que, por sistema operativo, por el IDE o por el sistema de gestión del ciclo de vida del proyecto, se generen en el directorio de nuestra aplicación ficheros que no queremos que formen parte del repositorio. Para ello podemos tener una configuración local por proyecto o global para todos los proyectos.
+
+Nostoros vamos a configurar un fichero de exclusiones particular por proyecto, de modo que cuando alguien se incorpore al equipo no tenga que configurar nada al respecto y no haya posibilidad de subidas al repositorio de ficheros de configuración locales.
